@@ -11,4 +11,4 @@ COPY . .
 RUN npm run build
 
 # default command in docker image but not for development mode
-CMD ["npm", "run", "serve:prod"]
+CMD ["npm", "run", "build:watch"]
